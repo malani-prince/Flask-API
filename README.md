@@ -28,6 +28,6 @@ python -m venv env
 
 # nor tun the command for remove the __pycache__ file Command:
 
-env:PYTHONDONTWRITEBYTECODE=1  
+$senv:PYTHONDONTWRITEBYTECODE=1  
 
 # Flask APK Run command
