@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        How to make a Pagination
+        using HTML and CSS ?
+    </title>
+</head>
+
+<body>
+    <center>
+
+        <!-- Header and Slogan -->
+        <h1>GeeksforGeeks</h1>
+        <div style="background: ghostwhite; 
+        font-size: 20px; 
+        padding: 10px; 
+        border: 1px solid lightgray; 
+        margin: 10px;">
+            {{empdata}}
+        </div>
+        <div>
+            <table>
+                {% for i_dict in empdata %}
+                    {% for keys,values in i_dict.items()%}
+                    <tr>
+                        <th>{{keys}}</th>
+                        <td>{{values}}</td>
+                    </tr>
+                    {% endfor %}
+                    {% endfor%}
+                </table>
+        </div>
+    </center>
+
+
+</body>
+
+</html>

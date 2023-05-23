@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+    <h1>Employee Data</h1>
+    <table border=3>
+        {% for key, value in DATA.items() %}
+        <tr>
+            <th>{{ key }} </th>
+            <td>{{ value }} </td>
+        </tr>
+        {% endfor %}
+
+</body>
+</html>
