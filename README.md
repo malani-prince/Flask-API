@@ -16,7 +16,7 @@ uuid
 ## create the virtual environment
 
 command:
-python -m venv <name>
+python -m venv "name"
 
 example:
 python -m venv env
